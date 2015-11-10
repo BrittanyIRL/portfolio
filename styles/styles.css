@@ -36,25 +36,55 @@ footer.page-footer {
 }
 
 /*Base Container Styles */
-
+/*
 .intro,
 .skills,
 .portfolio,
 .photo,
 .misc {
 	display: block;
-}
+}*/
 /* Intro block 
 ********************/
 .intro {
 	font-family: 'Playfair Display', serif;
 	font-size: 3em;
+	padding: 1em 2em 2em 2em;
+}
+
+.highlight {
+	color: #16FFBD;
 }
 
 /* skills block 
 ********************/
 
-.skills {
+.statementText {
+	color: #EE729F;
+	background-color: #16FFBD;
+	padding: 1em 2em 2em 2em;
+	font-family: 'Playfair Display', serif;
+}
 
+h2 {
+
+}
+
+/* honors 
+*******************/
+
+.honors {
+	background-color: #16FFBD;
+	padding: .5em 0 .5em .5em;
+	text-align: justify;
+	border-bottom: 10px solid #EE729F;
+}
+
+/* Parallax 
+*******************/
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    margin-bottom: -5em;
 }
 
