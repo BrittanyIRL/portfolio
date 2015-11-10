@@ -1,0 +1,60 @@
+/* Style Guide
+
+colors:
+bubblegum: EE729F or rgba(238,114,159,1.0)
+gooey mint: #16FFBD or rgba(22,255,189,1.0)
+gray: 828282 or rgba(130,130,130,1.0);
+black: #000 or rgba(0,0,0,1.0);
+white: #fff or rgba(255,255,255,1.0);
+
+
+fonts: 
+Body
+font-family: 'Droid Sans', sans-serif;
+Titles
+font-family: 'Playfair Display', serif;
+*/
+/*UNIVERSALS 
+********************/
+body {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+p {
+	text-align: justify;
+}
+
+i {
+	color: #16FFBD;
+}
+
+/* navigation styles 
+********************/
+.navMine, 
+footer.page-footer {
+	background-color: #EE729F;
+}
+
+/*Base Container Styles */
+
+.intro,
+.skills,
+.portfolio,
+.photo,
+.misc {
+	display: block;
+}
+/* Intro block 
+********************/
+.intro {
+	font-family: 'Playfair Display', serif;
+	font-size: 3em;
+}
+
+/* skills block 
+********************/
+
+.skills {
+
+}
+
