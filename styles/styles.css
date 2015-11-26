@@ -46,10 +46,22 @@ footer.page-footer {
 }*/
 /* Intro block 
 ********************/
+.navMine a {
+	padding-left: .5em;
+	line-height: 2em;
+	letter-spacing: 0.05em;
+}
+
+/* Intro block 
+********************/
 .intro {
 	font-family: 'Playfair Display', serif;
 	font-size: 3em;
 	padding: 1em 2em 2em 2em;
+	line-height: 2.5em;
+	letter-spacing: .05em;
+	word-spacing: .155em;
+	text-align: justify;
 }
 
 .highlight {
@@ -62,12 +74,36 @@ footer.page-footer {
 .statementText {
 	color: #EE729F;
 	background-color: #16FFBD;
-	padding: 1em 2em 2em 2em;
+	padding: .5em 2em .5em 2em;
 	font-family: 'Playfair Display', serif;
+	text-align: justify;
+	line-height: 1.2em;
+	letter-spacing: -0.00em;
+	word-spacing: .04em;
 }
 
-h2 {
+.skills p {
+	margin: auto .9em auto auto;
+}
+.skillsHeader {
+	letter-spacing: -0.04em;
+}
+/* projects
+*******************/
+.projects p {
+	margin: auto 2em auto auto;
+}
+.projects h3 {
+	letter-spacing: -0.04em;
+}
 
+.projects ul:nth-of-type(odd) {
+	text-align: left;
+	margin: 0;
+}
+.projects ul:nth-of-type(even) { /*not working */
+	text-align: left;
+	margin: 0;
 }
 
 /* honors 

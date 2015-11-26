@@ -18,7 +18,7 @@
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper navMine">
-          <a href="#top" class="brand-logo">Brittany Brassell</a>
+          <a href="#top" class="brand-logo">Brittany <span class="highlight">Brassell</span></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="#about">About Me</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
@@ -33,30 +33,30 @@
       <h1>Hi, I'm Brittany. I'm a Seattle-based <span class="highlight">front end developer</span> who delights in <span class="highlight">creative </span>problem solvings, <span class="highlight">strong</span> code, and out of the box thinking. <span class="highlight">I am #blessed </span>to be doing what I love.</h1>
     </div><!--end intro -->
     <div class="skills">
-      <div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax/sunset.jpg">
+      <!-- <div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax/sunset.jpg">
       </div> <!-- end parallax -->
-      <h2 class="statementText" id="about">Full Stack is pretty broad, so here's a few things I can't get enough of.</h2>
+      <h2 class="statementText" id="about">I'm a full stack developer. But, that's pretty broad, so here's a few things I can't get enough of.</h2>
       <div class="container">
-      <div class="row">
+      <div class="row skills">
         <div class="col s12 m6">
-          <h2>HTML5 &amp; CSS3</h2>
+          <h2 class="skillsHeader">HTML5 &amp; CSS3</h2>
           <h2><i class="fa fa-html5"></i> <i class="fa fa-css3"></i></h2>
           <p>I believe in a strong foundation - which means HTML5 and CSS3. This is also the foundation that creates a responsive page, one of the most important aspects of a modern web page. I take pride in knowing my creations can be viewed on a variety of screens and sizes. Additionally, I have several years experience building sites with just these tools and still think they are fun to use - I consider it a personal challenge to center objects well. </p>
         </div>
         <div class="col s12 m6">
-        <h2>Javascript &amp; jQuery</h2>
+        <h2 class="skillsHeader">Javascript &amp; jQuery</h2>
         <h2><i class="fa fa-bolt"></i> </h2>
         <p>Oh how boring the web would be without front end javascript and jquery! I love animating and beautifying pages with jQuery, as well as harnessing it to illustrate purposes and better organize page elements. These are broad and powerful tools at our disposal and not to be taken for granted. </p>
         </div>
       </div>
       <div class="row">
         <div class="col s12 m6">
-        <h2>Express.js</h2>
+        <h2 class="skillsHeader">Express.js</h2>
         <h2><i class="fa fa-bolt"></i> </h2>
         <p>Express is great for building more databasae driven applications. I use this in conjuction with sequeilze, postgres, and node.js. EJS layouts in express make designing responsive and variable content sites smooth and sturdy.</p>
         </div>
         <div class="col s12 m6">
-        <h2>Ruby on Rails</h2>
+        <h2 class="skillsHeader">Ruby on Rails</h2>
         <h2><i class="fa fa-bolt"></i> </h2>
         <p>The future....</p>
         </div>
@@ -67,22 +67,22 @@
     <div class="portfolio">
       <div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax/alaska.jpg">
       </div> <!-- end parallax -->
-    <h2 class="statementText" id="portfolio">Oh the places we will go! The possibilities of the web are unlimited, these are a few of my favorite contributions I've made lately.</h2>
-      <div class="container">
+    <h2 class="statementText" id="portfolio">The possibilities of the web are unlimited, these are a few of my favorite contributions I've made lately.</h2>
+      <div class="container projects">
       <div class="row">
-       <h2>The Owls are Not What They Seem</h2>
+       <h3>The Owls are Not What They Seem</h3>
         <div class="col s12 m6">
-          <h4>A Front End Matching Game</h4>
+          <h4>Javascript Memory Game</h4>
           <p>This is a memory game based lovingly on the 90s cult tv show Twin Peaks, thus the owl motif. It's made using HTML5, CSS3, and plain ol' javascript as a class project for General Assembly.</p>
           <div class="row highlight">
             <h4>Technologies used</h4>
-            <div class="col s6">
+            <div class="col s2">
               <ul>
                 <li>HTML5</li>
                 <li>CSS3</li>
               </ul>
             </div>
-            <div class="col s6">
+            <div class="col s2">
               <ul>
                 <li>JQuery</li>
                 <li>Javascript</li>
@@ -91,13 +91,14 @@
         </div>
       </div>
       <div class="col s12 m6">
-          <h3>inside col 1 : images here  </h3>
+          <h3>inside col 1 : image here w/ link  </h3>
       </div>          
       </div>
+      <!-- on shrink this order needs to put photos below description -->
       <div class="row">
-       <h2>RSVPtree</h2>
-        <div class="col s12 m6">
-          <h3>inside col 2 : images here  </h3>
+       <h3>RSVPtree</h3>
+        <div class="col s12 m6"> <!--off set this to counteract mobile order? -->
+          <h3>inside col 2 : images here w/ link </h3>
         </div> 
          <div class="col s12 m6">
           <h4 class="center-align">A Full-Stack Express App</h4>
