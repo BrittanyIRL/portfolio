@@ -95,6 +95,7 @@ footer.page-footer {
 }
 .projects h3 {
 	letter-spacing: -0.04em;
+	margin-top: 2em;
 }
 
 .projects ul:nth-of-type(odd) {
@@ -105,6 +106,31 @@ footer.page-footer {
 	text-align: left;
 	margin: 0;
 }
+
+.portfolioImage {
+	max-width: 500px;
+	max-height: 500px;
+}
+
+.projectsFA {
+	text-align: center;
+}
+
+.honors h4 {
+	padding: auto .2em;
+}
+
+.honors p{
+	margin: auto 3em;
+	text-align: center;
+}
+.honors .fa {
+	color: #EE729F;
+	font-size: 3em;
+	margin: auto .2em;
+}
+
+
 
 /* honors 
 *******************/

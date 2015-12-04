@@ -12,14 +12,15 @@
       <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900|Droid+Sans:400,700' rel='stylesheet' type='text/css'>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Brittany Brassell : Developer and Dreamer </title>
+      <title>Brittany Brassell : Web Developer </title>
     </head>
-    <body>    
+    <body>   
+
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper navMine">
           <a href="#top" class="brand-logo">Brittany <span class="highlight">Brassell</span></a>
-          <ul class="right hide-on-med-and-down">
+          <ul class="right hide-on-med-and-down"> <!-- add in mobile pull in out -->
             <li><a href="#about">About Me</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -68,40 +69,11 @@
       <div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax/alaska.jpg">
       </div> <!-- end parallax -->
     <h2 class="statementText" id="portfolio">The possibilities of the web are unlimited, these are a few of my favorite contributions I've made lately.</h2>
-      <div class="container projects">
-      <div class="row">
-       <h3>The Owls are Not What They Seem</h3>
-        <div class="col s12 m6">
-          <h4>Javascript Memory Game</h4>
-          <p>This is a memory game based lovingly on the 90s cult tv show Twin Peaks, thus the owl motif. It's made using HTML5, CSS3, and plain ol' javascript as a class project for General Assembly.</p>
-          <div class="row highlight">
-            <h4>Technologies used</h4>
-            <div class="col s2">
-              <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-              </ul>
-            </div>
-            <div class="col s2">
-              <ul>
-                <li>JQuery</li>
-                <li>Javascript</li>
-              </ul>
-            </div>
-        </div>
-      </div>
-      <div class="col s12 m6">
-          <h3>inside col 1 : image here w/ link  </h3>
-      </div>          
-      </div>
-      <!-- on shrink this order needs to put photos below description -->
+    <div class="container projects">
       <div class="row">
        <h3>RSVPtree</h3>
-        <div class="col s12 m6"> <!--off set this to counteract mobile order? -->
-          <h3>inside col 2 : images here w/ link </h3>
-        </div> 
          <div class="col s12 m6">
-          <h4 class="center-align">A Full-Stack Express App</h4>
+          <h4>A Full-Stack Express App</h4>
           <p>RSVPtree is an expressJS app with the intention of streamlining the RSVP process for big parties like weddings and family reunions. It uses sequelize to track the database and form information of various parties and keep them seperate. It focuses in on what information is needed from guests to better and more swiftly plan a party and keep track of what's going on. The cool part about it, besides how easy it is to use as a guest, is the family tree(s) it will help you make to learn family connections better - which comes in hand for weddings especially if the bride or groom doesn't know their better half's extended family super well. </p>
           <div class="row highlight">
             <h4>Technologies used</h4>
@@ -121,26 +93,54 @@
             </div>
         </div>         
       </div>
-      </div>
-      </div>
-      </div>
-      <!-- <div class="row">
-       <h2>Project 3</h2>
-        <div class="col s12 m4">
-          <h4 class="center-align">Project 3: words here</h4>
-        </div>
-        <div class="col s12 m8">
-          <h3>inside col 3: images here  </h3>
-        </div>          
-      </div> -->
+      <div class="col s12 m6"> <!--off set this to counteract mobile order? -->
+          <img src="images/examples/rsvptree.png" class="portfolioImage">
+      </div> 
+    </div>
 
-    <div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax/peru.jpg">
-    </div> <!-- end parallax -->
+
+    <div class="row">
+      <h3>Explor
+      </h3>
+        <div class="col s12 m6">
+          <a href="#" title="view website"><i class="fa fa-desktop projectsFA"></i></a>
+          <a href="https://github.com/BrittanyIRL" title="view source code"><i class="fa fa-github-alt projectsFA"></i> </a>
+          <h4>Ruby On Rails Travel App</h4>
+
+          <p>Group Project</p>
+          <div class="row highlight">
+            <h4>Technologies used</h4>
+            <div class="col s2">
+              <ul>
+                <li>Ruby on Rails</li>
+                <li>SASS</li>
+              </ul>
+            </div>
+            <div class="col s2">
+              <ul>
+                <li>JQuery</li>
+                <li>APIs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <img src="images/examples/explor.png" class="portfolioImage">
+        </div>          
+    </div><!-- end row -->
+  </div>
+</div>
+
+     
        <div class="container honors">
         <h3>And a few more things I'm working on...</h3>
         <div class="row">
           <div class="col s12 m4">
-            <h4>Honorable mentions</h4>
+            <h4>The Owls are Not What They Seem</h4>
+            <p>A Javascript Memory Game Based on Twin Peaks</p>
+            <p><a href="#" title="view website"><i class="fa fa-desktop"></i></a>
+            <a href="https://github.com/BrittanyIRL" title="view source code"><i class="fa fa-github-alt"></i> </a></p>
+          
           </div>
           <div class="col s12 m4">
             <h4>Honorable mentions</h4>
@@ -150,10 +150,10 @@
           </div>
         </div>
       </div>
-    <div class="misc">
-    <div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax/spaceneedle.jpg">
+    <div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax/peru.jpg">
     </div> <!-- end parallax -->
-        <h2 class="statementText">Useful Tidbits</h2>
+    <div class="misc">
+    <h2 class="statementText">Useful(?) Tidbits</h2>
       <div class="container">
         <div class="row">
           <div class="col s4">
@@ -179,26 +179,13 @@
                 <li>Familiarity with the Adobe Suite</li>
                 <li>Excellent googling skills</li>
                 <li>Endless music knowledge</li>
+              </ul>
           </div>
         </div>
       </div>
     </div>
-  <div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax/trees.jpg">
-  </div> <!-- end parallax -->
-    <div class="photo">
-      <h2 class="highlight">Also, I take photos.</h2>
-      <div class="row">
-        <div class="col s4">
-          <h2>Flickr API</h2>
-        </div>
-        <div class="col s4">
-          <h2>Flickr API</h2>
-        </div>
-        <div class="col s4">
-          <h2>Flickr API</h2>
-        </div>
-      </div>
-    </div>
+ <!--  <div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax/trees.jpg">
+  </div> <!-- end parallax --> 
     <footer class="page-footer footerMine">
           <div class="container">
             <div class="row" id="contact">
