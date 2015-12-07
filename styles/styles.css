@@ -111,23 +111,32 @@ footer.page-footer {
 	max-width: 500px;
 	max-height: 500px;
 }
-
 .projectsFA {
-	text-align: center;
+	font-size: 1.8em;
+	float: right;
+	color: #EE729F;
 }
 
-.honors h4 {
-	padding: auto .2em;
+.honors h3 {
+	padding: 0 1em;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 2.5em;
+}
+.honors h5 {
+	padding: .3em .3em;
+	text-align: left;
 }
 
 .honors p{
-	margin: auto 3em;
-	text-align: center;
+	margin: auto .5em;
+	text-align: left;
 }
 .honors .fa {
 	color: #EE729F;
-	font-size: 3em;
-	margin: auto .2em;
+	font-size: 2em;
+	margin: .5em .2em;
+	vertical-align: bottom;
 }
 
 
