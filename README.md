@@ -10,6 +10,7 @@ things to add:
 -scroll appear timeline with gifs back in 
 -test for responsive
 -how to mention photo?
+-fix icons below photos
 
 wordcloud of things I do: http://mistic100.github.io/jQCloud/
 
