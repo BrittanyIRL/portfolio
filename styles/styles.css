@@ -18,6 +18,7 @@ font-family: 'Playfair Display', serif;
 ********************/
 body {
 	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
 }
 
 p {
@@ -56,12 +57,12 @@ footer.page-footer {
 ********************/
 .intro {
 	font-family: 'Playfair Display', serif;
-	font-size: 3em;
-	padding: 1em 2em 2em 2em;
+	font-size: 1.3em;
+	padding: 1em;
 	line-height: 2.5em;
-	letter-spacing: .05em;
+	letter-spacing: -0.15em;
 	word-spacing: .155em;
-	text-align: justify;
+	text-align: left;
 }
 
 .highlight {
@@ -171,5 +172,16 @@ footer.page-footer {
     min-height: 400px;
     background: transparent;
     margin-bottom: -5em;
+}
+
+/* media queries built mobile first */
+@media (min-width: 830px) {
+	.intro {
+		text-align: justify;
+		line-height: 2.5em;
+		padding: .5em 2em .5em 2em;
+		font-size: 3em;
+		letter-spacing: 0.05em;
+	}
 }
 
