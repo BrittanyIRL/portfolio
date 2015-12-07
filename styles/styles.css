@@ -114,9 +114,11 @@ footer.page-footer {
 }
 .projectsFA {
 	font-size: 1.8em;
-	float: right;
+	padding: 1em 0 1em 1em;
 	color: #EE729F;
+	float: right;
 }
+
 
 .honors h3 {
 	padding: 0 1em;
