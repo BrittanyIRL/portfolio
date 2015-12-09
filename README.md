@@ -1,6 +1,9 @@
 # portfolio
 my personal portfolio built on good ol' jquery, html5, css3 and a little materialize css for kicks. 
 
+Things used: 
+https://github.com/davatron5000/FitText.js
+
 
 things to add:
 -background photo for top

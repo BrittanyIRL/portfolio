@@ -107,16 +107,24 @@ footer.page-footer {
 	text-align: left;
 	margin: 0;
 }
-
+.portfolioImageContainer {
+	width: 100%;
+}
 .portfolioImage {
-	max-width: 500px;
-	max-height: 500px;
+	width: 100%;
+	
+}
+.portfolioLinksContainer {
+	width: 100%;
+	display: inline-block;
+	float: left;
 }
 .projectsFA {
 	font-size: 1.8em;
-	padding: 1em 0 1em 1em;
+	padding: .5em;
 	color: #EE729F;
-	float: right;
+	
+	float: left;
 }
 
 
