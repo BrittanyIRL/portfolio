@@ -56,13 +56,19 @@ footer.page-footer {
 /* Intro block 
 ********************/
 .intro {
+	z-index: 9999;
 	font-family: 'Playfair Display', serif;
 	font-size: 1.3em;
 	padding: 1em;
+	margin-bottom: -2em;
 	line-height: 2.5em;
 	letter-spacing: -0.15em;
 	word-spacing: .155em;
 	text-align: left;
+	background: linear-gradient(rgba(238,114,159,1), rgba(238,114,159,0.7), rgba(130,130,130,0.7), transparent 100%),
+              linear-gradient(0deg, #828282, transparent),
+              #8E2800 url('../images/bgtrees.jpg') no-repeat center;  	
+	background-size: cover;
 }
 
 .highlight {
@@ -83,6 +89,9 @@ footer.page-footer {
 	word-spacing: .04em;
 }
 
+.skills {
+	padding-top: 0;
+}
 .skills p {
 	margin: auto .9em auto auto;
 }
@@ -192,6 +201,7 @@ footer.page-footer {
 		padding: .5em 2em .5em 2em;
 		font-size: 3em;
 		letter-spacing: 0.05em;
+		margin-bottom: -1em;
 	}
 }
 
