@@ -1,5 +1,6 @@
 $(document).ready(function(){
-
+//center on scroll 
+$('.scrollspy').scrollSpy();
 // mobile nav
  $(".button-collapse").sideNav();
 
