@@ -187,6 +187,15 @@ footer.page-footer {
 	font-size: 1.5em;
 }
 
+.connect li,
+.connect h5 {
+	margin-left: 3em;
+}
+
+.connect li {
+	padding-left: 2em;
+}
+
 
 
 /* Parallax 
