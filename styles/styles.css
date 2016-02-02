@@ -29,6 +29,10 @@ i {
 	color: #16FFBD;
 }
 
+a {
+	color: #EE729F;
+}
+
 /* navigation styles 
 ********************/
 .navMine, 
@@ -72,11 +76,20 @@ footer.page-footer {
 }
 
 .highlight {
-	color: #16FFBD;
+	color: #16ffbd;
 }
 
 .highlight .col{
 	margin-right: 2em;
+}
+
+.highlight li {
+	list-style-type: square;
+	color: #828282;
+}
+
+.highlight h4 {
+	color: #828282;
 }
 
 /* skills block 
