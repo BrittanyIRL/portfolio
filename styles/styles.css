@@ -96,6 +96,7 @@ footer.page-footer {
 ********************/
 
 .statementText {
+	box-sizing: border-box;
 	color: #EE729F;
 	background-color: #16FFBD;
 	padding: .5em 2em .5em 2em;
@@ -105,6 +106,7 @@ footer.page-footer {
 	letter-spacing: -0.00em;
 	word-spacing: .04em;
 }
+
 
 .skills {
 	padding-top: 0;
@@ -117,6 +119,7 @@ footer.page-footer {
 }
 /* projects
 *******************/
+
 .projects p {
 	margin: auto 2em auto auto;
 }
@@ -205,9 +208,19 @@ footer.page-footer {
 	margin-left: 3em;
 }
 
-.connect li {
-	padding-left: 2em;
+
+.skillsPortrait {
+	width: 100%;
+	margin: 1em;
+	text-align: center;
 }
+
+.skillsPortrait img{	
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 50%;
+	display: block;
+	}
 
 
 
