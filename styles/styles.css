@@ -203,15 +203,12 @@ footer.page-footer {
 	font-size: 1.5em;
 }
 
-.connect li,
-.connect h5 {
-	margin-left: 3em;
-}
+
 
 
 .skillsPortrait {
 	width: 100%;
-	margin: 1em;
+	margin: 1em 0;
 	text-align: center;
 }
 
