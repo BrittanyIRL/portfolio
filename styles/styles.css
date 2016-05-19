@@ -206,20 +206,25 @@ footer.page-footer {
 
 
 
-.skillsPortrait {
+.portrait {
 	width: 100%;
 	margin: 1em 0;
 	text-align: center;
-}
-
-.skillsPortrait img{	
-	width: 100%;
-	margin: 0 auto;
-	border-radius: 50%;
-	display: block;
+ }
+ 	#imageFlip{	
+		width: 175px;
+		height: 175px;
+		margin: 0 auto;
+		border-radius: 50%;
+		display: block;
+		background-image: url('../images/portrait1.png');
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
+	#imageFlip:hover {
+		background-image: url('../images/portrait2.png');
 
-
+	}
 
 /* Parallax 
 *******************/
@@ -230,6 +235,20 @@ footer.page-footer {
 }
 
 /* media queries built mobile first */
+
+
+@media (min-width: 600px) {
+	#imageFlip{	
+		width: 125px;
+		height: 125px;
+	}
+}
+@media (min-width: 735px) {
+	#imageFlip{	
+		width: 150px;
+		height: 150px;
+	}
+}
 @media (min-width: 830px) {
 	.intro {
 		text-align: justify;
@@ -239,5 +258,10 @@ footer.page-footer {
 		letter-spacing: 0.05em;
 		margin-bottom: -1em;
 	}
+	#imageFlip{	
+		width: 175px;
+		height: 175px;
+	}
 }
+
 
