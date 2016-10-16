@@ -14,10 +14,13 @@ $(".statementText").fitText(1.4, { minFontSize: '16px', maxFontSize: '55px'});
 $(".external-links li").hover(function(){
 	if($(this).hasClass("resume")){
 		console.log('resume');
-		$(this).find(".fa").css("color", "#ffd400");
+		$(this).find(".fa").css("color", "#fff");
 	}
 	else if($(this).hasClass("github")){
 		$(this).find(".fa").css("color", "#6cc644");
+	}
+	else if($(this).hasClass("codepen")){
+		$(this).find(".fa").css("color", "#FCD000");
 	}
 	else if($(this).hasClass("linkedin")){
 		$(this).find(".fa").css("color", "#0077b5");

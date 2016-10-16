@@ -131,6 +131,24 @@ footer.page-footer {
 .skillsHeader {
 	letter-spacing: -0.04em;
 }
+
+.skills h5 {
+	color: #EE729F;
+}
+.faves-header i {
+	padding: .5rem;
+	font-size: 1.6rem;
+	color: #828282;
+}
+.faves-header i:first-of-type {
+	opacity: 0.3;
+}
+.faves-header i:nth-of-type(2n) {
+	opacity: 0.6;
+}
+.faves-header i:last-of-type {
+	opacity: 0.9;
+}
 /* projects
 *******************/
 
@@ -163,8 +181,14 @@ footer.page-footer {
 	font-size: 1.8em;
 	padding: .5em;
 	color: #EE729F;
-	
 	float: left;
+}
+
+.fa-github-alt:hover {
+	color: #6cc644;
+}
+.fa-desktop:hover {
+	color: #16FFBD;
 }
 
 
@@ -188,6 +212,12 @@ footer.page-footer {
 	font-size: 2em;
 	margin: .5em .2em;
 	vertical-align: bottom;
+}
+.honors .fa-github-alt:hover {
+	color: #6cc644;
+}
+.honors .fa-desktop:hover {
+	color: #fff;
 }
 
 
