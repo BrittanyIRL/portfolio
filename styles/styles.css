@@ -99,6 +99,7 @@ footer.page-footer {
 .highlight li {
 	list-style-type: square;
 	color: #828282;
+	list-style-position: inside;
 }
 
 .highlight h4 {
@@ -141,14 +142,11 @@ footer.page-footer {
 	margin-top: 2em;
 }
 
-.projects ul:nth-of-type(odd) {
+.projects ul {
 	text-align: left;
 	margin: 0;
 }
-.projects ul:nth-of-type(even) { /*not working */
-	text-align: left;
-	margin: 0;
-}
+
 .portfolioImageContainer {
 	width: 100%;
 }
@@ -204,17 +202,44 @@ footer.page-footer {
 	border-bottom: 10px solid #EE729F;
 }
 
-/* honors 
+/* Misc section
+*******************/
+.misc h5 {
+	border-bottom: solid .1rem #828282;
+	margin-right: 5rem;
+}
+.misc li {
+	list-style-type: square;
+	list-style-position: inside;
+	color: #828282;
+}
+
+/* Contact section
 *******************/
 
 .page-footer a {
-	color:  #16FFBD;
+	color:  #828282;
+}
+.page-footer a:hover{
+	color: #16FFBD;
 }
 
 .page-footer i {
 	padding-right: .6em;
 	font-size: 1.5em;
 }
+/* Contact Me Section */
+.external-link li .fa{
+	transition: color 1s;
+}
+.external-link li .fa:hover{
+	color: default;
+	border-bottom: none;
+}
+.external-link li i {
+	color: #16FFBD;
+}
+
 
 
 
@@ -238,13 +263,6 @@ footer.page-footer {
 		background-image: url('../images/portrait2.png');
 
 	}
-/* Animations */
-.external-link li .fa{
-	transition: color 1s;
-}
-.external-link li .fa:hover{
-	color: default;
-}
 
 
 /* Parallax 
