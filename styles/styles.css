@@ -53,9 +53,22 @@ footer.page-footer {
 ********************/
 .navMine a {
 	padding-left: .5em;
+	margin: 0 .5rem;
 	line-height: 2em;
 	letter-spacing: 0.05em;
 }
+
+.navMine li:hover {
+	background-color: #EE729F;	
+}
+.navMine li:last-of-type {
+	margin-right: 1rem;
+}
+#portfolio-navigation a:hover{
+	border-bottom: solid .1rem #16FFBD;
+	
+}
+
 
 /* Intro block 
 ********************/
@@ -225,6 +238,14 @@ footer.page-footer {
 		background-image: url('../images/portrait2.png');
 
 	}
+/* Animations */
+.external-link li .fa{
+	transition: color 1s;
+}
+.external-link li .fa:hover{
+	color: default;
+}
+
 
 /* Parallax 
 *******************/
