@@ -42,4 +42,9 @@ function(){
 	$(this).find(".fa").css("color", "#16FFBD");
 });
 
+// copyright year update 
+let year = new Date();
+year = year.getFullYear();
+$("#current-year").text(year);
+
 });
